@@ -10,8 +10,8 @@
     	<junit>
     		<test name="Testing.TestingClass"/>
     		<classpath>
-    			<pathelement location="E:/3Y - 2S/Software Engineering/hamcrest-core-1.3.jar"/>
-    			<pathelement location="E:/3Y - 2S/Software Engineering/junit-4.10.jar"/>
+    			<pathelement location="\CalculatorProject\NecessaryLibraries\hamcrest-core-1.3.jar"/>
+    			<pathelement location="\CalculatorProject\NecessaryLibraries\junit-4.10.jar"/>
     		</classpath>
     	</junit>
     </target>
