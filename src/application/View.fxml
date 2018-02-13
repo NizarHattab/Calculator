@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button fx:id="oneBtn" layoutX="38.0" layoutY="287.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="1" />
+      <Button fx:id="twoBtn" layoutX="89.0" layoutY="287.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="2" />
+      <Button fx:id="threeBtn" layoutX="140.0" layoutY="287.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="3" />
+      <Button fx:id="fourBtn" layoutX="38.0" layoutY="236.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="4" />
+      <Button fx:id="fiveBtn" layoutX="89.0" layoutY="236.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="5" />
+      <Button fx:id="sixBtn" layoutX="140.0" layoutY="236.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="6" />
+      <Button fx:id="sevenBtn" layoutX="38.0" layoutY="185.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="7" />
+      <Button fx:id="eightBtn" layoutX="89.0" layoutY="185.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="8" />
+      <Button fx:id="nineBtn" layoutX="140.0" layoutY="185.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="9" />
+      <Button fx:id="zeroBtn" layoutX="38.0" layoutY="338.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="0" />
+      <Button fx:id="dotBtn" layoutX="89.0" layoutY="338.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="." />
+      <Button fx:id="modBtn" layoutX="140.0" layoutY="338.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="\%" />
+      <Button fx:id="equalBtn" layoutX="191.0" layoutY="236.0" mnemonicParsing="false" onAction="#displayResult" prefHeight="50.0" prefWidth="50.0" text="=" />
+      <Button fx:id="plusBtn" layoutX="191.0" layoutY="338.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="+" />
+      <Button fx:id="minusBtn" layoutX="191.0" layoutY="287.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="-" />
+      <Button fx:id="mulBtn" layoutX="140.0" layoutY="134.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="*" />
+      <Button fx:id="divBtn" layoutX="89.0" layoutY="134.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="/" />
+      <Button fx:id="sqrtBtn" layoutX="38.0" layoutY="134.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="sqrt" />
+      <TextField fx:id="statementField" alignment="CENTER" disable="true" layoutX="39.0" layoutY="70.0" prefHeight="50.0" prefWidth="203.0" />
+      <Button fx:id="clearBtn" layoutX="191.0" layoutY="134.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="C" />
+      <Button fx:id="clearElementBtn" layoutX="191.0" layoutY="185.0" mnemonicParsing="false" onAction="#print" prefHeight="50.0" prefWidth="50.0" text="CE" />
+      <Label fx:id="resultLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="14.0" prefHeight="50.0" prefWidth="203.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
