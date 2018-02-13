@@ -1,18 +1,14 @@
 package Testing;
 
-import static org.junit.Assert.assertEquals;
-
-
 import Model.Model;
-import application.Controller;
 import junit.framework.TestCase;
 
 public class TestingClass extends TestCase {
-	private Controller Controller;
+	
 	private Model model;
 
 	public TestingClass() {
-		Controller = new Controller();
+		
 		model = new Model();
 	}
 	public void testingCalculator() {	
@@ -42,7 +38,8 @@ public class TestingClass extends TestCase {
 
 		model.computeString(statement);
 		String result = model.getResult();
-		assertEquals(actual, result,0.0);
+		assertEquals(actual, result);
+		
 
 	}
 
