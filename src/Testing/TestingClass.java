@@ -1,7 +1,8 @@
 package Testing;
 
-import static org.junit.Assert.assertThat;
-import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.*;
+import static org.junit.Test;
 
 import Model.Model;
 import application.Controller;
@@ -42,7 +43,7 @@ public class TestingClass extends TestCase {
 
 		model.computeString(statement);
 		String result = model.getResult();
-		assertThat(actual, is(result));
+		assertEqual(actual, result,0.0);
 
 	}
 
