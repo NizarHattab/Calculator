@@ -1,8 +1,7 @@
 package Testing;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.*;
-import static org.junit.Test;
+
 
 import Model.Model;
 import application.Controller;
