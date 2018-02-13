@@ -43,7 +43,7 @@ public class TestingClass extends TestCase {
 
 		model.computeString(statement);
 		String result = model.getResult();
-		assertEqual(actual, result,0.0);
+		assertEquals(actual, result,0.0);
 
 	}
 
